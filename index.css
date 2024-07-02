@@ -1,0 +1,79 @@
+ 
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #007BFF, #FFD700); 
+  color: white; 
+  font-family: Arial, sans-serif; 
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+header {
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+header p[data-testid="slackDisplayName"] {
+  font-size: 18px; 
+  font-weight: bold; 
+}
+
+
+section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#currentTime[data-testid="currentTimeUTC"], #currentDay[data-testid="currentDay"] {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
+}
+
+
+.about-me {
+  margin-top: 40px;
+}
+
+.about-me h1 {
+  font-size: 28px; 
+  color: #007BFF;
+}
+
+.about-me p {
+  line-height: 1.6; 
+  font-size: 16px; 
+}
+
+
+ @media (max-width: 768px) {
+ .container {
+      padding: 10px;
+  }
+
+  header, section {
+      padding: 15px;
+  }
+} 
+
+p {
+  margin: 10px 0;
+  padding: 5px;
+  color: black;
+}
+
