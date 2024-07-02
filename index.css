@@ -77,3 +77,26 @@ p {
   color: black;
 }
 
+nav {
+  display: flex; 
+  justify-content: space-around; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+nav a {
+  text-decoration: none; 
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+  margin: 0 10px; 
+  color:#333
+}
+
+nav a:hover {
+  color: #007bff; 
+  transform: scale(1.5); 
+}
+
+
+
+
